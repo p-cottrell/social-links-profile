@@ -6,7 +6,7 @@ body {
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
     font-family: Inter;
-    font-size: 12px;
+    font-size: 16px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -32,14 +32,14 @@ a {
 }
 
 .avatar {
-    border-radius: 35px;
+    border-radius: 50%;
     width:  70px;
     height: 70px;
     object-fit: cover;
 }
 
 .link-container__name {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 5px;
 }
@@ -67,12 +67,16 @@ a {
     border-radius: 5px;
     font-family: Inter;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .btn:hover {
-    font-weight: 400;
+    font-weight: 700;
     cursor: pointer;
     box-shadow: 2px 2px 2px hsl(0, 0%, 8%);
     transition: box-shadow 0.2s ease;
+}
+
+.btn:focus-visible {
+  outline: 1px solid hsl(0, 0%, 100%);
 }
