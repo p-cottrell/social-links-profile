@@ -78,5 +78,5 @@ a {
 }
 
 .btn:focus-visible {
-  outline: 1px solid hsl(0, 0%, 100%);
+  outline: 1px solid hsl(0, 0%, 100%);  
 }
